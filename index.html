@@ -4,28 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="Metatron" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="style.css" />
 
     <title>BMI</title>
   </head>
   <body>
-    <h1>Body Index</h1>
-    <form name="bmiform">
-      <input type="text" name="groesse" />
-      <h2>Größe in cm</h2>
-      <br />
-      <input type="text" name="gewicht" />
-      <h2>Gewicht in kg</h2>
-      <br />
-      <input
-        type="button"
-        name="submit"
-        value="berechnen"
-        onclick="berechnen();"
-      />
-      <br />
-    </form>
+    <div id="haupt">
+      <h1>Body Index</h1>
+      <form name="bmiform">
+        <input type="text" name="groesse" />
+        <h2>Größe in cm</h2>
+        <br />
+        <input type="text" name="gewicht" />
+        <h2>Gewicht in kg</h2>
+        <br />
+        <input
+          type="button"
+          name="submit"
+          value="berechnen"
+          onclick="berechnen();"
+        />
+        <a href="https://bmirechner.net/bmi-tabelle" class="btn btn-primary"
+          >BMI-Tabele</a
+        >
+        <br />
+      </form>
+    </div>
     <br />
+
     <script src="index.js"></script>
   </body>
 </html>
