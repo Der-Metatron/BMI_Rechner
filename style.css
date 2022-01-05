@@ -34,8 +34,3 @@ input:hover {
   transform: translate(0px, -10px);
   box-shadow: 0px 30px 15px -10px rgba(0, 0, 0, 0, 2);
 }
-
-card {
-  margin-top: 50rem;
-  text-align: center;
-}
