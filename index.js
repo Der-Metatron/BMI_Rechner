@@ -7,7 +7,7 @@ function berechnen() {
     return null;
   }
   if (height < 50 || height > 250) {
-    alert("Falsche Grösse.nBitte Daten erneut eingeben");
+    alert("Falsche Grösse.Bitte Daten erneut eingeben");
     return null;
   }
   bmi = Math.round(weight / Math.pow(height / 100, 2));
