@@ -3,7 +3,7 @@ function berechnen() {
   let weight = document.bmiform.gewicht.value;
   let height = document.bmiform.groesse.value;
   if (weight < 10 || weight > 200) {
-    alert("Falsches Gewicht.nBitte Daten erneut eingeben");
+    alert("Falsches Gewicht.Bitte Daten erneut eingeben");
     return null;
   }
   if (height < 50 || height > 250) {
