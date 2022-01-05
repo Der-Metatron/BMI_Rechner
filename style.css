@@ -1,0 +1,9 @@
+h1 {
+  font-size: 8rem;
+}
+
+body {
+  text-align: center;
+  background-image: url(./Flügel.jpg);
+  background-position: center;
+}
